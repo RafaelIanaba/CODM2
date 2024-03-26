@@ -94,19 +94,19 @@ export default StyleSheet.create({
         color:'red'
     },
     botaoAdd:{
-        //preciso de um estilo para meu botao
-        marginVertical:10,
-        marginRight:1,
-        paddingVertical:1,
-        backgroundColor:"#8B0000",
-        borderRadius:6
+        width:75,
+        height: 35,
+        backgroundColor: "#8B0000",
+        borderRadius: 6,
+        marginHorizontal: 5,
+        marginVertical: 10,
     },
     textAdicionar:{
-        color:'white',
-        textAlign:'center',
-        fontSize:12,
-        padding:10,
-        fontWeight:'bold'
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 12,
+        padding: 10,
+        fontWeight: 'bold', 
     },
     input:{
         height:40,

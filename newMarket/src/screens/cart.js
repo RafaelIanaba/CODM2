@@ -7,6 +7,9 @@ import asadoDeTira from '../../assets/produtos/asado_tira.png';
 import tomahawk from '../../assets/produtos/tomahawk.png';
 import styles from '../styles/styles';
 
+const totalCompra = 336.88;
+
+
 export default function Cart({navigation}){
     return<ScrollView>
             <Text style={styles.cestaCarnes}>Resumo das Compras</Text>
@@ -44,7 +47,7 @@ export default function Cart({navigation}){
             <Text style={styles.precoCesta}>{
                 Intl.NumberFormat('pt-BR',{
                     style:'currency', currency:'BRL'
-                }).format(336.88)
+                }).format(totalCompra)
             }
             </Text>
 
